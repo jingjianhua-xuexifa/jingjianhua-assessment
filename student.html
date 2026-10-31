@@ -370,8 +370,8 @@ function renderHome(){
         </ul>
       </div>
       <div class="dim-grid2">
-        ${DIMENSIONS.map(d=>`<div class="dim-item"><strong>${d.icon} ${d.name}</strong>${d.desc?`<div class="dd">— ${d.desc}</div>`:''}</div>`).join('')}
-        <button class="btn-start" onclick="startQuiz()">开始测评</button>
+        ${DIMENSIONS.map(d=>`<div class="dim-item"><strong>${d.icon} ${d.name}</strong>${d.desc?`<div class="dd">—— ${d.desc}</div>`:''}</div>`).join('')}
+        <button class="btn-start" onclick="startQuiz()">开始测评 →</button>
       </div>
       <div class="home-admin">
         <button class="btn-admin" onclick="openAdmin()">⚙️ 内容管理</button>
